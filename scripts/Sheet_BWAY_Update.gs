@@ -7,6 +7,8 @@ const SPREADSHEET_ID = 'YOUR_SPREADSHEET_ID';
 const SHOWS_BOOKED_TAB = 'Shows Booked';
 const MASTER_TAB = 'BWAY 41';
 
+__________________________________________________________________________________
+
 function updateShowsFromBookedToMaster() {
   try {
     const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
